@@ -8,7 +8,7 @@ const Nav = () => (
   <nav>
     <div className="nav__items">
       <a className="nav__item--left" href="/">
-        <img src={logo} alt="Traveler Pack Logo" className="nav__item--logo" />
+        <img src={logo} alt="Rashid's Logo" className="nav__item--logo" />
       </a>
       <Link
         className={
@@ -16,7 +16,7 @@ const Nav = () => (
             ? "nav__item--link active"
             : "nav__item--link"
         }
-        to="/blog/guide-to-iceland"
+        to="/blog/about-the-blog"
       >
         About
       </Link>

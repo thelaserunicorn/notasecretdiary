@@ -18,6 +18,9 @@ const IndexPage = () => (
     <Link to="/blog" className="viewmore">
       View More
     </Link>
+    <Link to="/blog" className="developed">
+      Developed By Rashid
+    </Link>
     <Footer />
   </Layout>
 )

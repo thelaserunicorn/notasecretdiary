@@ -136,7 +136,7 @@ exports.createPages = ({ actions, graphql }) => {
     sort: { fields: [createdAt], order: DESC }
     filter: {
       node_locale: {eq: "en-US"}
-      categories: {elemMatch: {category: {eq: "Guide"}}}
+      categories: {elemMatch: {category: {eq: "Thoughts"}}}
     },)
   {
     edges {
@@ -176,7 +176,7 @@ exports.createPages = ({ actions, graphql }) => {
     sort: { fields: [createdAt], order: DESC }
     filter: {
       node_locale: {eq: "en-US"}
-      categories: {elemMatch: {category: {eq: "Opinion"}}}
+      categories: {elemMatch: {category: {eq: "Opinions"}}}
     },)
   {
     edges {
