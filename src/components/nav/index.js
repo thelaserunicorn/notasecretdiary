@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import { window } from "browser-monads"
-import logo from "../../images/compass-logo.svg"
+import logo from "../../images/ri.png"
 import "./nav.css"
 
 const Nav = () => (
@@ -12,13 +12,13 @@ const Nav = () => (
       </a>
       <Link
         className={
-          window.location.href.indexOf("contact") > 0
+          window.location.href.indexOf("About") > 0
             ? "nav__item--link active"
             : "nav__item--link"
         }
-        to="/contact"
+        to="/blog/guide-to-iceland"
       >
-        Contact
+        About
       </Link>
       <Link
         className={

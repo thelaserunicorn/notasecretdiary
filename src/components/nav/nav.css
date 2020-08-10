@@ -22,7 +22,7 @@ nav {
 }
 
 .nav__item--link {
-  font-family: Muli, sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: #fff;
@@ -32,9 +32,9 @@ nav {
 }
 
 .nav__item--link:hover {
-  color: #f06666;
+  color: #ff8181;
 }
 
 .active {
-  color: #f06666;
+  color: #fc7878;
 }
