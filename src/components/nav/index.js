@@ -29,7 +29,7 @@ const Nav = () => (
         }
         to="/blog"
       >
-        Blog
+        Archive
       </Link>
     </div>
   </nav>
